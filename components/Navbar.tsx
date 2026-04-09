@@ -32,7 +32,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <Image
-            src="/logo.png"
+            src="/images/logo.png"
             alt="Jean logo"
             width={28}
             height={28}

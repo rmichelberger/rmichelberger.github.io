@@ -16,7 +16,7 @@ export default function PrivacyPolicyPage() {
         <div className="mx-auto max-w-4xl flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="/images/logo.png"
               alt="Jean logo"
               width={24}
               height={24}

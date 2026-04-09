@@ -13,7 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jean — AI Assistant for iOS & Android",
+  title: "Jean.works — Stop chatting. Start doing.",
+  icons: {
+     icon: "https://jean.works/images/app-icon.png",
+     apple: "https://jean.works/images/app-icon.png"
+  },
   description:
     "Privacy-first AI assistant with tools, custom agents, and multi-provider support. No account required. Your data stays on your device.",
   keywords: [
@@ -31,19 +35,21 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Roland Michelberger" }],
   openGraph: {
-    title: "Jean — AI Assistant for iOS & Android",
+    title: "Jean.works — Stop chatting. Start doing.",
     description:
-      "Privacy-first AI assistant with tools, custom agents, and multi-provider support. No account required. Your data stays on your device.",
+      "Privacy-first AI assistant with tools, custom agents, and multi-provider support.  It doesn't just talk, it get things done. No account required. Your data stays on your device.",
     url: "https://jean.works",
-    siteName: "Jean",
+    siteName: "Jean.works",
     type: "website",
     locale: "en_US",
+    images: [{ url: "https://jean.works/images/og-image.png" }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jean — AI Assistant for iOS & Android",
+    title: "Jean.works — Stop chatting. Start doing.",
     description:
-      "Privacy-first AI assistant with tools, custom agents, and multi-provider support.",
+      "Privacy-first AI assistant with tools, custom agents, and multi-provider support.  It doesn't just talk, it get things done. No account required. Your data stays on your device.",
+    images: "https://jean.works/images/og-image.png",
   },
   metadataBase: new URL("https://jean.works"),
 };

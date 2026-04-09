@@ -42,7 +42,7 @@ export default function Hero() {
                 {/* Screenshot placeholder - replace with actual screenshot */}
                 <div className="text-center p-8">
                   <Image
-                    src="/app-icon.png"
+                    src="/images/app-icon.png"
                     alt="Jean app icon"
                     width={80}
                     height={80}
