@@ -14,8 +14,10 @@ export default function Footer() {
             height={24}
             className="rounded-md"
           />
-          <span className="text-sm font-bold">jean</span>
-          <span className="text-sm text-muted-foreground">.works</span>
+          <span className="text-sm">
+            <span className="font-bold">jean</span>
+            <span className="text-muted-foreground">.works</span>
+          </span>
         </div>
 
         {/* Links */}

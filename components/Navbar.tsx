@@ -38,8 +38,10 @@ export default function Navbar() {
             height={28}
             className="rounded-md"
           />
-          <span className="text-lg font-bold">jean</span>
-          <span className="text-lg text-muted-foreground">.works</span>
+          <span className="text-lg">
+            <span className="font-bold">jean</span>
+            <span className="text-muted-foreground">.works</span>
+          </span>
         </a>
 
         {/* Desktop nav links */}
