@@ -28,7 +28,9 @@ export default function BetaTestingSection() {
         </a>
 
         <p className="mt-6 text-sm text-muted-foreground">
-          Currently available for iOS via TestFlight. Android coming soon.
+          Currently available for iOS via TestFlight.
+           <br></br>
+           Android coming soon.
         </p>
       </div>
     </section>
