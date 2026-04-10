@@ -43,7 +43,7 @@ const features = [
 
 export default function FeaturesGrid() {
   return (
-    <section id="features" className="py-24 px-6">
+    <section id="features" className="py-24 px-6 bg-muted/90">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
           Everything you need in an AI assistant

@@ -42,7 +42,7 @@ export default function ProvidersSection() {
                 width={64}
                 height={64}
                 className="mb-4 rounded-l"
-                style={{ width: "auto", height: "auto" }}
+                style={{ width: 64, height: 64, objectFit: "contain" }}
               />
               <h3 className="text-lg font-semibold">{provider.name}</h3>
               <p className="text-sm text-muted-foreground">

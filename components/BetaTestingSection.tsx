@@ -1,6 +1,6 @@
 export default function BetaTestingSection() {
   return (
-    <section id="beta" className="py-24 px-6 bg-muted/30">
+    <section id="beta" className="py-24 px-6 bg-muted/90">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">
           Be among the first to try Jean
