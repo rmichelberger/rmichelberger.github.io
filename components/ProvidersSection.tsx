@@ -20,7 +20,7 @@ const providers = [
 
 export default function ProvidersSection() {
   return (
-    <section  id="providers" className="py-24 px-6">
+    <section  id="providers" className="py-24 px-6 bg-muted/90">
       <div className="mx-auto max-w-6xl text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           Choose your AI, your way

@@ -36,7 +36,7 @@ const privacyPoints = [
 
 export default function PrivacySection() {
   return (
-    <section id="privacy" className="py-24 px-6 bg-muted/90">
+    <section id="privacy" className="py-24 px-6">
       <div className="mx-auto max-w-6xl text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-4">
           Your data. Your device. Period.

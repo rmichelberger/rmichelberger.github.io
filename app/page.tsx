@@ -16,7 +16,6 @@ export default function Home() {
       <main>
         <Hero />
         <FeaturesGrid />
-        <AgentsSection />
         <PrivacySection />
         <ProvidersSection />
         <BetaTestingSection />
@@ -25,6 +24,8 @@ export default function Home() {
     </>
   );
 }
+
+//         <AgentsSection />
 
 //         <ToolsShowcase />
 
