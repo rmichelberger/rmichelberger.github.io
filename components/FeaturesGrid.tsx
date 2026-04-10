@@ -12,22 +12,10 @@ const features = [
       "Email, calendar, camera, files, location, web requests — your AI can take real actions on your phone.",
   },
   {
-    icon: "🤖",
-    title: "Custom Agents",
-    description:
-      "Build specialized assistants with custom prompts, pinned models, and selected tools.",
-  },
-  {
     icon: "⚡",
     title: "Background Tasks",
     description:
       "Agents work for you even when you are not looking. Schedule tasks and let them run.",
-  },
-  {
-    icon: "📁",
-    title: "File Explorer",
-    description:
-      "Browse, create, and manage files directly through your AI assistant.",
   },
   {
     icon: "🔒",
@@ -36,6 +24,22 @@ const features = [
       "No account. No tracking. No data collection. Everything stays on your device.",
   },
 ];
+
+  // {
+  //   icon: "📁",
+  //   title: "File Explorer",
+  //   description:
+  //     "Browse, create, and manage files directly through your AI assistant.",
+  // },
+
+  //   {
+  //   icon: "🤖",
+  //   title: "Custom Agents",
+  //   description:
+  //     "Build specialized assistants with custom prompts, pinned models, and selected tools.",
+  // },
+
+
 
 export default function FeaturesGrid() {
   return (
@@ -48,7 +52,7 @@ export default function FeaturesGrid() {
           Powerful features that make Jean your most capable mobile AI companion.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {features.map((feature) => (
             <div
               key={feature.title}

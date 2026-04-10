@@ -9,13 +9,14 @@ export default function Hero() {
       <div className="mx-auto max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Text content */}
         <div className="relative z-10">
+          <br></br>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
             Stop chatting. {" "}
+            <br></br>
             <span className="text-accent">Start doing.</span>
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl">
-            Jean is a privacy-first AI assistant for iOS and Android. It doesn't just talk, it get things done. Use tools. Build custom agents. All data stays on your
-            device. Bring your own API keys.
+            Jean is a privacy-first AI assistant. It doesn't just talk, it get things done.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a

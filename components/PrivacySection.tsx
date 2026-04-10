@@ -24,13 +24,15 @@ const privacyPoints = [
     description:
       "All conversations, agents, and settings live on your device. Nowhere else.",
   },
-  {
-    icon: "🗑️",
-    title: "Delete anytime",
-    description:
-      "Delete your data in the app, or uninstall to remove everything instantly.",
-  },
 ];
+
+  // {
+  //   icon: "🗑️",
+  //   title: "Delete anytime",
+  //   description:
+  //     "Delete your data in the app, or uninstall to remove everything instantly.",
+  // },
+
 
 export default function PrivacySection() {
   return (
@@ -44,7 +46,7 @@ export default function PrivacySection() {
           servers that collect, store, or process your personal data.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {privacyPoints.map((point) => (
             <div
               key={point.title}

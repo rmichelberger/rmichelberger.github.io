@@ -41,7 +41,7 @@ export default function ProvidersSection() {
                 alt={`${provider.name} logo`}
                 width={64}
                 height={64}
-                className="mb-4 rounded-xl"
+                className="mb-4 rounded-l"
                 style={{ width: "auto", height: "auto" }}
               />
               <h3 className="text-lg font-semibold">{provider.name}</h3>
